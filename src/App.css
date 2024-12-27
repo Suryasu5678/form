@@ -1,0 +1,66 @@
+.container{
+  background-color: rgb(228, 226, 226);
+  padding: 0;
+  margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+}
+form{
+  display: flex;
+  flex-direction: column;
+border: 5px solid black;
+border-radius: 50px;
+box-shadow: 0 10px 30px rgba(253, 3, 3, 0.5);
+gap: 20px;
+  background-color: rgb(168, 161, 161);
+  width: 400px;
+  padding: 20px;
+}
+label{
+  width: 100%;
+  display: flex;
+  padding-top: 5px;
+  margin-top: 5px;
+     
+
+  
+}
+
+input{
+flex-grow: 1;
+border: 2px solid rgb(174, 89, 89);
+border-radius: 15px;
+  padding-left: 15px;
+}
+
+input[type="radio"]{
+  margin-Right: 80px;
+}
+input[type='file']{
+padding-top: 9px;
+margin-left: 9px;
+margin-right:190px ;}
+
+
+.button{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.buttons:hover{
+  background-color: #0056b3;
+  cursor:pointer;
+  transform: translateY(-2px);
+}
+.buttons {
+  padding: 12px 25px;
+  background-color: #1776dd;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
